@@ -9,11 +9,47 @@
 
 
  /* CUSTOM */
+ @font-face {
+  font-family: "Manifold DSA Regular";
+  src: url("fonts/OTF/ManifoldDSA-Regular.otf") format("otf");
+}
 
- body {
-   background: black;
- }
- a:visited {color:white;}
+@font-face {
+  font-family: "Manifold DSA Bold";
+  src: url("fonts/OTF/ManifoldDSA-Bold.otf") format("otf");
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  text-align: center;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+
+}
+
+
+body {
+  font-family: "Manifold DSA Regular", Sans-Serif;
+  background: black;
+}
+
+input, button, textarea, select {
+  font-family: "Manifold DSA Regular", Sans-Serif;
+}
+
+ a {
+  color: #EC1F27;
+  text-decoration: none;
+}
  #centerimage {
   background: antiquewhite;
   display: block;
@@ -28,7 +64,15 @@
   max-width: 80%;
   color: white;
  }
-
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 2em;
+}
 
 
 
