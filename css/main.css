@@ -81,6 +81,9 @@ footer li {
 .topnav {
   background: rgb(37,40,39);
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -101,7 +104,7 @@ footer li {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rgb(37,40,50);
+  background-color: green;
   color: white;
 }
 
