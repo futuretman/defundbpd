@@ -77,35 +77,33 @@ footer li {
   margin-right: 2em;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background: rgb(37,40,39);
+/* The navigation bar */
+.navbar {
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
-/* Style the links inside the navigation bar */
-.topnav a, .topnav img {
+/* Links inside the navbar */
+.navbar a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: green;
-  color: white;
+/* Main content */
+.content {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
 }
 
 
